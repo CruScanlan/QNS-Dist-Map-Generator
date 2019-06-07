@@ -1,0 +1,36 @@
+{
+  "name": "qns-dist-map-generator",
+  "version": "1.0.0",
+  "description": "Generate distribution maps from avh",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "nodemon --exec npm start",
+    "start": "node ./src/app.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cruzercru/QNS-Dist-Map-Generator.git"
+  },
+  "author": "Cru Scanlan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Cruzercru/QNS-Dist-Map-Generator/issues"
+  },
+  "homepage": "https://github.com/Cruzercru/QNS-Dist-Map-Generator#readme",
+  "dependencies": {
+    "await-to-js": "^2.1.1",
+    "express": "^4.17.1",
+    "jimp": "^0.6.4",
+    "lowdb": "^1.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
