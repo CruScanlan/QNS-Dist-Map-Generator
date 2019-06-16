@@ -25,9 +25,11 @@
   "homepage": "https://github.com/Cruzercru/QNS-Dist-Map-Generator#readme",
   "dependencies": {
     "await-to-js": "^2.1.1",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jimp": "^0.6.4",
     "lowdb": "^1.0.0",
+    "redis": "^2.8.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
