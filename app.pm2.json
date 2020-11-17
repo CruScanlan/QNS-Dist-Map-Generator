@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "exec_mode": "fork_mode",
+      "script": "./src/app.js",
+      "name": "qns-dist-map-generator:3000",
+      "args": [ "3000" ]
+    },
+    {
+      "exec_mode": "fork_mode",
+      "script": "./src/app.js",
+      "name": "qns-dist-map-generator:3001",
+      "args": [ "3001" ]
+    }
+  ]
+}
